@@ -1,0 +1,29 @@
+// Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar
+
+package Curso;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int numeroInteiro;	
+		
+		System.out.println("Digite um numero inteiro ");
+		numeroInteiro = sc.nextInt();
+    // Verifica se um numero é impar ou par 
+		if(numeroInteiro % 2 ==0) {
+			System.out.println("Numero PAR");
+		}else {
+			System.out.println("Numero IMPAR");
+		}
+		
+	
+		sc.close();
+
+	}
+
+}
