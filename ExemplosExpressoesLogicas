@@ -1,0 +1,32 @@
+//Quando o operador é E ( && ), todas as condições tem que ser verdadeiras para ser verdade , se uma comparação for Falsa , ira resultar FALSO.
+
+Exemplo
+
+Suponhamos que X é igual a 5 
+
+X <=20 &&  X == 10
+    V         F       RESULTADO VAI SER FALSO ,POIS TEM UMA CONDIÇÃO FALSA
+    
+
+X > 0 && X !=3
+  V         V       RESULTADO VAI DAR VERDADEIRO , POIS TODAS SAO VERDADE.
+  
+  
+  // Quando o operador é o OU , Pelo menos uma condição tem que ser Verdadeira para o restante ser Verdade .
+  
+  Suponhamos que X é igual a 5
+  
+  X == 10 || X < 20
+     F          V     RESULTADO VAI DAR VERDADEIRO , POIS TEM UMA CONDIÇÃO QUE É VERDADEIRA.
+  
+  
+  
+   // Quando o operador é o ! (NÃO/NEGACAO) , SE A CONDIÇÃO FOR FALSA ELA SE TORNA VERDADEIRA .
+   
+    Suponhamos que X é igual a 5
+    
+    !(X == 10)
+        F            RESULTADO VAI DAR VERDADEIRO , POIS ELA É UMA CONDIÇÃO FALSA E NA CONDIÇÃO ! ELA INVERTE O RESULTADO.
+   
+  
+
