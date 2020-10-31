@@ -1,3 +1,26 @@
+// Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
+
+package CursoNelio;
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		int n;
+		
+		n = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+			if(n<0) {
+				JOptionPane.showMessageDialog(null, "Numero Negativo");
+			}else {
+				JOptionPane.showMessageDialog(null, "Numero Positivo");
+			}		
+
+	}
+
+}
+
 // Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar
 
 package Curso;
