@@ -223,3 +223,39 @@ public class uri1051 {
 		sc.close();
 	}
 }
+
+
+// Verificar se o numero é primo > 
+
+package Entites;
+
+import javax.swing.JOptionPane;
+
+public class Exercicios {
+
+	public static void main(String[] args) {
+		
+		// Numero primo : Divisivel por 1 e por ele mesmo (Somente !) 
+		// Numero de divisores é 2 !
+		
+	int numPrimo = 0;
+	int numDivisores = 0;
+	
+	numPrimo = Integer.parseInt(	JOptionPane.showInputDialog("Digite um numero"));
+	
+	for (int i =1; i<=numPrimo; i++) {
+		if(numPrimo % i == 0) {
+			numDivisores++;
+		}
+				
+	}
+		
+		if(numDivisores == 2 ) {
+			JOptionPane.showMessageDialog(null, "Numero digitado é primo");
+		}else {
+			JOptionPane.showMessageDialog(null, "Nao é primo ");
+		}
+	}
+	
+}
+
